@@ -123,7 +123,6 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
-main section img:last-of-type {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.mountains {
+    padding: 50px 0px 150px;
 }
