@@ -123,3 +123,7 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
+main section img:last-of-type {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
