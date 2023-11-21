@@ -1,0 +1,129 @@
+/* Importação da fonte Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+
+/* Reset de estilos para garantir uma base consistente em todos os navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+#content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #81B29A;
+    color: #F4F1DE;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo_link img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    background-color: #F4F1DE;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px; /* Ajuste de espaçamento */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: #81B29A;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+/* Footer */
+footer {
+    background-color: #81B29A;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+footer a:hover {
+    color: #3D405B;
+    text-decoration: underline;
+}
+
+/* Main */
+.square h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2em; /* Alterado para um valor relativo */
+    color: #3D405B;
+    padding-top: 20px;
+}
+
+.square p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1em; /* Alterado para um valor relativo */
+    color: #000000;
+    padding-top: 10px;
+    padding-right: 20px; /* Ajuste de espaçamento */
+    text-align: justify;
+}
+
+.square {
+    float: left;
+    padding-left: 40px;
+    padding-bottom: 80px;
+}
+
+.grid {
+    display: grid;
+}
+
+.row {
+    grid-template-columns: 1fr 1fr;
+}
+ 
+.picture img{
+width: 82%;
+height: 95%;
+}
+
+.picture2 img{
+    width: 90%;
+    height: 90%;
+    }
+    
