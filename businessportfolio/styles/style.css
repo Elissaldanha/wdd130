@@ -26,18 +26,19 @@ header {
     align-items: center;
 }
 
+
 #logo_link img {
     width: 200px;
 }
 
-nav {
+.topnav {
     display: flex;
     background-color: #F4F1DE;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
 
-nav a {
+.topnav a {
     text-align: center;
     color: black;
     text-decoration: none;
@@ -46,7 +47,7 @@ nav a {
     font-weight: 500;
 }
 
-nav a:hover {
+.topnav a:hover {
     color: white;
     text-decoration: underline;
     background-color: #81B29A;
